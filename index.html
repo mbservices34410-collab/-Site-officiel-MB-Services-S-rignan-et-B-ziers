@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="MB Services à Sérignan : rénovation, peinture, plomberie, pose de cuisines, sols, montage et petits travaux autour de Béziers. Devis gratuit au 06 20 90 02 38.">
+<meta name="theme-color" content="#111111">
+<title>MB Services | Rénovation & multiservices à Sérignan et Béziers</title>
+<style>
+:root{--ink:#111;--muted:#666;--line:#e7e7e7;--paper:#fff;--soft:#f5f5f5;--accent:#b9d62b}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:Arial,Helvetica,sans-serif;color:var(--ink);background:var(--paper);line-height:1.55}
+a{color:inherit}.wrap{width:min(1160px,92%);margin:auto}
+header{position:sticky;top:0;z-index:10;background:#fff;border-bottom:1px solid var(--line)}
+.nav{min-height:78px;display:flex;align-items:center;justify-content:space-between;gap:24px}
+.brand{display:flex;align-items:center;gap:12px;text-decoration:none;font-weight:900;letter-spacing:-1px;font-size:25px;line-height:1}
+.brand-mark{width:43px;height:43px;border:3px solid #111;display:grid;place-items:center;transform:rotate(45deg);font-size:22px}
+.brand-mark span{transform:rotate(-45deg)}
+.brand small{display:block;font-size:10px;letter-spacing:1.1px;font-weight:700;margin-top:6px}
+nav{display:flex;gap:24px;font-size:14px;font-weight:700}nav a{text-decoration:none}nav a:hover{text-decoration:underline}
+.phone{background:#111;color:#fff;text-decoration:none;border-radius:30px;padding:12px 19px;font-weight:800;white-space:nowrap}
+.hero{min-height:520px;display:flex;align-items:center;color:white;background:linear-gradient(90deg,rgba(0,0,0,.88),rgba(0,0,0,.62) 43%,rgba(0,0,0,.05)),url('https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1900&q=85') center/cover}
+.hero-inner{padding:85px 0;max-width:650px}.eyebrow{text-transform:uppercase;letter-spacing:3px;font-size:13px;font-weight:800;color:#d6e58b}
+h1{font-size:clamp(40px,6vw,68px);line-height:1.02;letter-spacing:-2px;margin:15px 0 20px}
+.hero p{font-size:20px;max-width:560px;color:#f1f1f1}.actions{display:flex;flex-wrap:wrap;gap:12px;margin-top:28px}
+.btn{display:inline-block;text-decoration:none;border-radius:30px;padding:14px 22px;font-weight:800;border:2px solid white}.btn.light{background:#fff;color:#111}.btn.outline{color:#fff}
+section{padding:78px 0}.section-head{text-align:center;max-width:700px;margin:0 auto 38px}.kicker{text-transform:uppercase;letter-spacing:2px;color:#777;font-size:12px;font-weight:800}.section-head h2{font-size:clamp(30px,4vw,42px);letter-spacing:-1px;margin:8px 0}.section-head p{color:var(--muted);margin:0}
+.services{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+.service{border:1px solid var(--line);padding:25px;border-radius:12px;background:#fff;transition:.2s}.service:hover{transform:translateY(-3px);box-shadow:0 12px 30px #0000000d}
+.icon{width:42px;height:42px;border-radius:50%;background:#111;color:#fff;display:grid;place-items:center;font-size:19px;font-weight:800}
+.service h3{margin:15px 0 6px;font-size:19px}.service p{color:var(--muted);margin:0;font-size:15px}
+.gallery{background:var(--soft)}.photos{display:grid;grid-template-columns:repeat(4,1fr);gap:12px}
+.photos img{width:100%;height:220px;object-fit:cover;border-radius:9px;display:block}
+.note{font-size:12px;color:#777;text-align:center;margin-top:16px}
+.why-grid{display:grid;grid-template-columns:1fr 1fr;gap:44px;align-items:center}
+.why-image{width:100%;height:390px;object-fit:cover;border-radius:14px}
+.checks{list-style:none;padding:0;margin:20px 0}.checks li{padding:8px 0 8px 30px;position:relative}.checks li:before{content:"✓";position:absolute;left:0;font-weight:900;color:#809900;font-size:20px}
+.area{background:#111;color:white}.area .section-head p{color:#ccc}.area-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:12px}
+.area-item{border:1px solid #444;border-radius:10px;padding:20px;text-align:center;font-weight:700}
+.contact{background:#f4f4f4}.contact-grid{display:grid;grid-template-columns:.9fr 1.1fr;gap:40px;align-items:start}
+.contact-card{background:#111;color:#fff;padding:30px;border-radius:14px}.contact-card a{color:#fff}.contact-card .big{font-size:27px;font-weight:900}
+form{background:#fff;padding:28px;border:1px solid var(--line);border-radius:14px}
+label{display:block;font-size:13px;font-weight:800;margin:13px 0 6px}input,textarea,select{width:100%;padding:13px;border:1px solid #ccc;border-radius:7px;font:inherit;background:#fff}textarea{min-height:110px;resize:vertical}
+button{border:0;background:#111;color:white;border-radius:30px;padding:14px 22px;font-weight:800;font-size:15px;cursor:pointer;margin-top:16px}
+footer{background:#080808;color:#ddd;padding:34px 0}.foot{display:flex;justify-content:space-between;gap:25px;align-items:center;flex-wrap:wrap}.foot a{color:white}
+.small{font-size:12px;color:#aaa;margin-top:20px}
+@media(max-width:850px){nav{display:none}.services{grid-template-columns:repeat(2,1fr)}.photos{grid-template-columns:repeat(2,1fr)}.why-grid,.contact-grid{grid-template-columns:1fr}.area-grid{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:520px){.nav{min-height:68px}.brand{font-size:20px}.phone{padding:10px 13px;font-size:13px}.hero{min-height:500px}.hero-inner{padding:65px 0}.hero p{font-size:17px}section{padding:58px 0}.services{grid-template-columns:1fr}.photos img{height:150px}.why-image{height:260px}.area-grid{grid-template-columns:1fr 1fr}}
+</style>
+</head>
+<body>
+<header><div class="wrap nav">
+<a class="brand" href="#accueil"><span class="brand-mark"><span>⌂</span></span><span>MB SERVICES<small>RÉNOVATION • MULTISERVICES</small></span></a>
+<nav><a href="#accueil">Accueil</a><a href="#prestations">Prestations</a><a href="#realisations">Réalisations</a><a href="#zone">Zone d'intervention</a><a href="#contact">Contact</a></nav>
+<a class="phone" href="tel:+33620900238">☎ 06 20 90 02 38</a>
+</div></header>
+<main>
+<section class="hero" id="accueil"><div class="wrap"><div class="hero-inner">
+<div class="eyebrow">Sérignan • Béziers et alentours</div>
+<h1>Vos travaux,<br>notre savoir-faire.</h1>
+<p>Rénovation et multiservices pour votre maison ou votre appartement. Un interlocuteur pour vos travaux du quotidien.</p>
+<div class="actions"><a class="btn light" href="tel:+33620900238">Appeler le 06 20 90 02 38</a><a class="btn outline" href="#contact">Demander un devis gratuit</a></div>
+</div></div></section>
+<section id="prestations"><div class="wrap"><div class="section-head"><div class="kicker">Nos compétences</div><h2>Nos prestations</h2><p>Des interventions adaptées à vos besoins, pour l'amélioration et l'entretien de votre habitat.</p></div>
+<div class="services">
+<article class="service"><div class="icon">▰</div><h3>Peinture</h3><p>Peinture intérieure et travaux de rafraîchissement pour redonner vie à vos pièces.</p></article>
+<article class="service"><div class="icon">⌁</div><h3>Plomberie</h3><p>Petits travaux de plomberie, remplacement d'équipements et réparations courantes.</p></article>
+<article class="service"><div class="icon">＋</div><h3>Cuisines & salles de bains</h3><p>Pose, montage et installation de meubles et équipements selon votre projet.</p></article>
+<article class="service"><div class="icon">▦</div><h3>Sols & revêtements</h3><p>Pose de revêtements et finitions pour rénover vos espaces.</p></article>
+<article class="service"><div class="icon">⌂</div><h3>Montage & menuiseries</h3><p>Montage de meubles, pose d'éléments et petits travaux de menuiserie.</p></article>
+<article class="service"><div class="icon">⚒</div><h3>Petits travaux & rénovation</h3><p>Travaux d'amélioration, réparations et remise en état de logements.</p></article>
+</div></div></section>
+<section class="gallery" id="realisations"><div class="wrap"><div class="section-head"><div class="kicker">Quelques inspirations</div><h2>Nos réalisations</h2><p>Un aperçu de finitions et d'aménagements pour vos projets.</p></div>
+<div class="photos">
+<img src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=700&q=80" alt="Intérieur rénové et lumineux">
+<img src="https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=700&q=80" alt="Salon contemporain">
+<img src="https://images.unsplash.com/photo-1600585154526-990dced4db0d?auto=format&fit=crop&w=700&q=80" alt="Maison et aménagement">
+<img src="https://images.unsplash.com/photo-1600566753086-00f18fb6b3ea?auto=format&fit=crop&w=700&q=80" alt="Cuisine moderne">
+</div><p class="note">Photos d'illustration. Elles seront remplacées par vos propres photos de chantiers pour présenter fidèlement MB Services.</p>
+</div></section>
+<section><div class="wrap why-grid">
+<div><div class="kicker">Votre artisan local</div><h2>Pourquoi choisir MB Services ?</h2><p>Un contact direct, une approche polyvalente et une attention portée aux finitions.</p>
+<ul class="checks"><li>Échange direct et conseils adaptés</li><li>Devis gratuit et sans engagement</li><li>Interventions autour de Sérignan et Béziers</li><li>Prestations variées pour votre habitat</li></ul><a class="btn" style="background:#111;color:#fff;border-color:#111" href="#contact">Parler de votre projet</a></div>
+<img class="why-image" src="https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=1000&q=85" alt="Intérieur contemporain lumineux">
+</div></section>
+<section class="area" id="zone"><div class="wrap"><div class="section-head"><div class="kicker" style="color:#cbdc72">Proximité</div><h2>Notre zone d'intervention</h2><p>Basés à Sérignan, nous intervenons à Béziers et dans les communes voisines, selon la nature du chantier.</p></div>
+<div class="area-grid"><div class="area-item">Sérignan</div><div class="area-item">Béziers</div><div class="area-item">Valras-Plage</div><div class="area-item">Sauvian</div><div class="area-item">Vendres</div><div class="area-item">Villeneuve-lès-Béziers</div><div class="area-item">Portiragnes</div><div class="area-item">Alentours</div></div></div></section>
+<section class="contact" id="contact"><div class="wrap"><div class="section-head"><div class="kicker">Parlons de votre projet</div><h2>Demander un devis</h2><p>Décrivez-nous votre besoin. Nous vous recontacterons pour échanger sur votre projet.</p></div>
+<div class="contact-grid"><div class="contact-card"><div class="kicker" style="color:#cbdc72">MB Services</div><h2>Un projet ? Contactez-nous.</h2><p>Pour un renseignement ou une demande de devis, appelez directement.</p><p class="big"><a href="tel:+33620900238">06 20 90 02 38</a></p><p>📍 Sérignan – Béziers et alentours</p><p><a href="https://www.facebook.com/profile.php?id=6" target="_blank" rel="noopener">Retrouvez MB Services sur Facebook ↗</a></p></div>
+<form id="quoteForm"><label for="name">Votre nom</label><input id="name" name="name" required placeholder="Nom et prénom"><label for="phone">Votre téléphone</label><input id="phone" name="phone" required type="tel" placeholder="06…"><label for="service">Votre besoin</label><select id="service" name="service"><option>Peinture</option><option>Plomberie</option><option>Pose de cuisine / salle de bains</option><option>Sols et revêtements</option><option>Montage / menuiseries</option><option>Rénovation / petits travaux</option><option>Autre demande</option></select><label for="message">Décrivez votre projet</label><textarea id="message" name="message" placeholder="Commune, travaux souhaités, disponibilités…"></textarea><button type="submit">Envoyer ma demande</button><p class="note">Le bouton prépare un message WhatsApp à envoyer. Aucun message n'est transmis automatiquement.</p></form>
+</div></div></section>
+</main>
+<footer><div class="wrap"><div class="foot"><div><strong style="font-size:22px;color:#fff">MB SERVICES</strong><br><span>Rénovation • Multiservices</span></div><div><a href="tel:+33620900238">06 20 90 02 38</a><br>Sérignan – Béziers et alentours</div><div><a href="https://www.facebook.com/profile.php?id=6" target="_blank" rel="noopener">Facebook MB Services</a></div></div><div class="small">© <span id="year"></span> MB Services. Tous droits réservés. | Site vitrine – informations à compléter avant publication.</div></div></footer>
+<script>
+document.getElementById('year').textContent=new Date().getFullYear();
+document.getElementById('quoteForm').addEventListener('submit',function(e){
+ e.preventDefault();
+ const d=new FormData(this);
+ const msg=`Bonjour MB Services, je souhaite un devis.%0ANom : ${encodeURIComponent(d.get('name'))}%0ATéléphone : ${encodeURIComponent(d.get('phone'))}%0ABesoin : ${encodeURIComponent(d.get('service'))}%0AProjet : ${encodeURIComponent(d.get('message'))}`;
+ window.open('https://wa.me/33620900238?text='+msg,'_blank');
+});
+</script>
+</body></html>
